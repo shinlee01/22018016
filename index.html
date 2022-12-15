@@ -1,12 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>쇼핑몰</title>
+  <link href="./css/style.css" type="text/css" rel="stylesheet">
+  <script src="./javascript/jquery/jquery-1.12.3.js"></script>
+  <script src="./javascript/script/script.js"></script>
 </head>
 <body>
-    <p><img src="img/Android Small - 1.png" alt=""></p>
+    <main>
+        <header>
+            <a class="logo" href="#">
+                <img src="./img/logo.png" alt="logo">
+                <h1>쇼핑몰</h1>
+            </a>
+
+            <ul class="navi">
+                <li>
+                    <a href="#">전체상품</a>
+                </li>
+                <li><a href="#">키보드</a>
+                    <ul class="subMenu">
+                        <li><a href="#">맴브레인</a></li>
+                        <li><a href="#">기계식</a></li>
+                        <li><a href="#">광축</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">마우스</a>
+                    <ul class="subMenu">
+                        <li><a href="#">유선</a></li>
+                        <li><a href="#">무선</a></li>
+                        <li><a href="#">유/무선</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">사운드/스피커</a>
+                    <ul class="subMenu">
+                        <li><a href="#">헤드셋</a></li>
+                        <li><a href="#">스피커</a></li>
+                        <li><a href="#">마이크</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </header>
+        <div class="contents">
+            <div>
+                <table>
+                    <tr>
+                        <td>
+                            <img src="img/keyboard.png" class="imgs">
+                            <p>상품1</p>
+                        </td>
+                        <td>
+                            <img src="img/keyboard.png" class="imgs">
+                            <p>상품2</p>
+                        </td>
+                        <td>
+                            <img src="img/keyboard.png" class="imgs">
+                            <p>상품3</p>
+                        </td>
+                        <td>
+                            <img src="img/keyboard.png" class="imgs">
+                            <p>상품4</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="img/mouse.png" class="imgs">
+                            <p>상품5</p>
+                        </td>
+                        <td>
+                            <img src="img/mouse.png" class="imgs">
+                            <p>상품6</p>
+                        </td>
+                        <td>
+                            <img src="img/mouse.png" class="imgs">
+                            <p>상품7</p>
+                        </td>
+                        <td>
+                            <img src="img/mouse.png" class="imgs">
+                            <p>상품8</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footerLogo">
+                <img src="./img/f_logo.png" alt="하단로고">
+            </div>
+            <div class="footerGroup">
+                <div class="footerMenu">
+                    <p>22018016 신승호</p>
+                </div>
+                <div class="footerCright">
+                    COPYRIGHT © by WEBDESIGN. ALL RIGHTS RESERVED
+                </div>
+            </div>
+        </footer>
+    </main>
 </body>
 </html>
